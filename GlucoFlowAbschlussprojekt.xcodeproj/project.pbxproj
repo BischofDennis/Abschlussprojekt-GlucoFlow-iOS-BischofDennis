@@ -17,6 +17,8 @@
 		8C8F6D262C5D03690096BBC9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6D252C5D03690096BBC9 /* HomeView.swift */; };
 		8C8F6D282C5D04310096BBC9 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6D272C5D04310096BBC9 /* CalendarView.swift */; };
 		8C8F6D2A2C5D05F00096BBC9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6D292C5D05F00096BBC9 /* MainView.swift */; };
+		8C8F6D312C5D14AD0096BBC9 /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6D302C5D14AD0096BBC9 /* MealView.swift */; };
+		8C8F6D332C5D14B80096BBC9 /* MealViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6D322C5D14B80096BBC9 /* MealViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		8C8F6D252C5D03690096BBC9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8C8F6D272C5D04310096BBC9 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		8C8F6D292C5D05F00096BBC9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8C8F6D302C5D14AD0096BBC9 /* MealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealView.swift; sourceTree = "<group>"; };
+		8C8F6D322C5D14B80096BBC9 /* MealViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +104,13 @@
 		8C8F6CFA2C5CFE6E0096BBC9 /* GlucoFlowAbschlussprojekt */ = {
 			isa = PBXGroup;
 			children = (
+				8C8F6D2F2C5D149E0096BBC9 /* MealView */,
+				8C8F6D2E2C5D148D0096BBC9 /* CalendarView */,
+				8C8F6D2B2C5D145F0096BBC9 /* HomeView */,
 				8C8F6CFB2C5CFE6E0096BBC9 /* GlucoFlowAbschlussprojektApp.swift */,
 				8C8F6CFD2C5CFE6E0096BBC9 /* ContentView.swift */,
 				8C8F6CFF2C5CFE6F0096BBC9 /* Assets.xcassets */,
 				8C8F6D012C5CFE6F0096BBC9 /* Preview Content */,
-				8C8F6D252C5D03690096BBC9 /* HomeView.swift */,
-				8C8F6D272C5D04310096BBC9 /* CalendarView.swift */,
 				8C8F6D292C5D05F00096BBC9 /* MainView.swift */,
 			);
 			path = GlucoFlowAbschlussprojekt;
@@ -134,6 +139,31 @@
 				8C8F6D182C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektUITestsLaunchTests.swift */,
 			);
 			path = GlucoFlowAbschlussprojektUITests;
+			sourceTree = "<group>";
+		};
+		8C8F6D2B2C5D145F0096BBC9 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				8C8F6D252C5D03690096BBC9 /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		8C8F6D2E2C5D148D0096BBC9 /* CalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				8C8F6D272C5D04310096BBC9 /* CalendarView.swift */,
+			);
+			path = CalendarView;
+			sourceTree = "<group>";
+		};
+		8C8F6D2F2C5D149E0096BBC9 /* MealView */ = {
+			isa = PBXGroup;
+			children = (
+				8C8F6D302C5D14AD0096BBC9 /* MealView.swift */,
+				8C8F6D322C5D14B80096BBC9 /* MealViewModel.swift */,
+			);
+			path = MealView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,10 +297,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C8F6D262C5D03690096BBC9 /* HomeView.swift in Sources */,
+				8C8F6D332C5D14B80096BBC9 /* MealViewModel.swift in Sources */,
 				8C8F6CFE2C5CFE6E0096BBC9 /* ContentView.swift in Sources */,
 				8C8F6D282C5D04310096BBC9 /* CalendarView.swift in Sources */,
 				8C8F6D2A2C5D05F00096BBC9 /* MainView.swift in Sources */,
 				8C8F6CFC2C5CFE6E0096BBC9 /* GlucoFlowAbschlussprojektApp.swift in Sources */,
+				8C8F6D312C5D14AD0096BBC9 /* MealView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

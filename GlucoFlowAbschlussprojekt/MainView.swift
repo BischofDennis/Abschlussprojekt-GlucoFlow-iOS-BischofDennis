@@ -20,6 +20,10 @@ struct MainView: View {
                         .tabItem {
                             Label("Kalender", systemImage: "calendar")
                         }
+                    MealView()
+                        .tabItem {
+                            Label("Essen", systemImage: "fork.knife")
+                        }
                 }
                 
             }
