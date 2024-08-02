@@ -14,6 +14,9 @@
 		8C8F6D0D2C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6D0C2C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektTests.swift */; };
 		8C8F6D172C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6D162C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektUITests.swift */; };
 		8C8F6D192C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6D182C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektUITestsLaunchTests.swift */; };
+		8C8F6D262C5D03690096BBC9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6D252C5D03690096BBC9 /* HomeView.swift */; };
+		8C8F6D282C5D04310096BBC9 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6D272C5D04310096BBC9 /* CalendarView.swift */; };
+		8C8F6D2A2C5D05F00096BBC9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6D292C5D05F00096BBC9 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		8C8F6D122C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlucoFlowAbschlussprojektUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8F6D162C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoFlowAbschlussprojektUITests.swift; sourceTree = "<group>"; };
 		8C8F6D182C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoFlowAbschlussprojektUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C8F6D252C5D03690096BBC9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8C8F6D272C5D04310096BBC9 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		8C8F6D292C5D05F00096BBC9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				8C8F6CFD2C5CFE6E0096BBC9 /* ContentView.swift */,
 				8C8F6CFF2C5CFE6F0096BBC9 /* Assets.xcassets */,
 				8C8F6D012C5CFE6F0096BBC9 /* Preview Content */,
+				8C8F6D252C5D03690096BBC9 /* HomeView.swift */,
+				8C8F6D272C5D04310096BBC9 /* CalendarView.swift */,
+				8C8F6D292C5D05F00096BBC9 /* MainView.swift */,
 			);
 			path = GlucoFlowAbschlussprojekt;
 			sourceTree = "<group>";
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C8F6D262C5D03690096BBC9 /* HomeView.swift in Sources */,
 				8C8F6CFE2C5CFE6E0096BBC9 /* ContentView.swift in Sources */,
+				8C8F6D282C5D04310096BBC9 /* CalendarView.swift in Sources */,
+				8C8F6D2A2C5D05F00096BBC9 /* MainView.swift in Sources */,
 				8C8F6CFC2C5CFE6E0096BBC9 /* GlucoFlowAbschlussprojektApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
