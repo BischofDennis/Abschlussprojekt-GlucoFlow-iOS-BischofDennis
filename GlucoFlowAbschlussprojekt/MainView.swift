@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct MainView: View {
+    @StateObject private var viewModel = MainViewModel()
     var body: some View {
         NavigationStack{
             VStack{
@@ -20,9 +21,17 @@ struct MainView: View {
                         .tabItem {
                             Label("Kalender", systemImage: "calendar")
                         }
+                    AddViewGlucose()
+                        .tabItem {
+                            Label("Hinzufügen",systemImage: "plus.square")
+                        }
                     MealView()
                         .tabItem {
                             Label("Essen", systemImage: "fork.knife")
+                        }
+                    SettingView()
+                        .tabItem {
+                            Label("Settings", systemImage: "gear")
                         }
                 }
                 
@@ -38,7 +47,7 @@ struct MainView: View {
                 }
                 ToolbarItem {
                     Button {
-                        
+                        viewModel.addButtonTapped()
                     } label: {
                         Image(systemName: "gear")
                     }
@@ -46,7 +55,9 @@ struct MainView: View {
                 }
             }
             .navigationTitle("Regina")
-            
+            .sheet(isPresented: $viewModel.setting) {
+               SettingView()
+            }
             .onAppear {
             }
         }

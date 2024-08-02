@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C6DC2A52C5D1D9500A8DFEC /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6DC2A42C5D1D9500A8DFEC /* MainViewModel.swift */; };
 		8C8F6CFC2C5CFE6E0096BBC9 /* GlucoFlowAbschlussprojektApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6CFB2C5CFE6E0096BBC9 /* GlucoFlowAbschlussprojektApp.swift */; };
 		8C8F6CFE2C5CFE6E0096BBC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6CFD2C5CFE6E0096BBC9 /* ContentView.swift */; };
 		8C8F6D002C5CFE6F0096BBC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C8F6CFF2C5CFE6F0096BBC9 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C6DC2A42C5D1D9500A8DFEC /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		8C8F6CF82C5CFE6E0096BBC9 /* GlucoFlowAbschlussprojekt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlucoFlowAbschlussprojekt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8F6CFB2C5CFE6E0096BBC9 /* GlucoFlowAbschlussprojektApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoFlowAbschlussprojektApp.swift; sourceTree = "<group>"; };
 		8C8F6CFD2C5CFE6E0096BBC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				8C8F6D022C5CFE6F0096BBC9 /* Preview Assets.xcassets */,
+				8C6DC2A42C5D1D9500A8DFEC /* MainViewModel.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				8C8F6D402C5D199D0096BBC9 /* PatientDatabase.xcdatamodeld in Sources */,
 				8C8F6D332C5D14B80096BBC9 /* MealViewModel.swift in Sources */,
 				8C8F6CFE2C5CFE6E0096BBC9 /* ContentView.swift in Sources */,
+				8C6DC2A52C5D1D9500A8DFEC /* MainViewModel.swift in Sources */,
 				8C8F6D282C5D04310096BBC9 /* CalendarView.swift in Sources */,
 				8C8F6D3D2C5D19780096BBC9 /* Repository.swift in Sources */,
 				8C8F6D2A2C5D05F00096BBC9 /* MainView.swift in Sources */,
