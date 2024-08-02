@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C8F6CFC2C5CFE6E0096BBC9 /* GlucoFlowAbschlussprojektApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6CFB2C5CFE6E0096BBC9 /* GlucoFlowAbschlussprojektApp.swift */; };
+		8C8F6CFE2C5CFE6E0096BBC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6CFD2C5CFE6E0096BBC9 /* ContentView.swift */; };
+		8C8F6D002C5CFE6F0096BBC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C8F6CFF2C5CFE6F0096BBC9 /* Assets.xcassets */; };
+		8C8F6D032C5CFE6F0096BBC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C8F6D022C5CFE6F0096BBC9 /* Preview Assets.xcassets */; };
+		8C8F6D0D2C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6D0C2C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektTests.swift */; };
+		8C8F6D172C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6D162C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektUITests.swift */; };
+		8C8F6D192C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6D182C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C8F6D092C5CFE6F0096BBC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C8F6CF02C5CFE6E0096BBC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C8F6CF72C5CFE6E0096BBC9;
+			remoteInfo = GlucoFlowAbschlussprojekt;
+		};
+		8C8F6D132C5CFE6F0096BBC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C8F6CF02C5CFE6E0096BBC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C8F6CF72C5CFE6E0096BBC9;
+			remoteInfo = GlucoFlowAbschlussprojekt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C8F6CF82C5CFE6E0096BBC9 /* GlucoFlowAbschlussprojekt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlucoFlowAbschlussprojekt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8F6CFB2C5CFE6E0096BBC9 /* GlucoFlowAbschlussprojektApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoFlowAbschlussprojektApp.swift; sourceTree = "<group>"; };
+		8C8F6CFD2C5CFE6E0096BBC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C8F6CFF2C5CFE6F0096BBC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C8F6D022C5CFE6F0096BBC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8C8F6D082C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlucoFlowAbschlussprojektTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8F6D0C2C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoFlowAbschlussprojektTests.swift; sourceTree = "<group>"; };
+		8C8F6D122C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlucoFlowAbschlussprojektUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8F6D162C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoFlowAbschlussprojektUITests.swift; sourceTree = "<group>"; };
+		8C8F6D182C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoFlowAbschlussprojektUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C8F6CF52C5CFE6E0096BBC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8F6D052C5CFE6F0096BBC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8F6D0F2C5CFE6F0096BBC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C8F6CEF2C5CFE6E0096BBC9 = {
+			isa = PBXGroup;
+			children = (
+				8C8F6CFA2C5CFE6E0096BBC9 /* GlucoFlowAbschlussprojekt */,
+				8C8F6D0B2C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektTests */,
+				8C8F6D152C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektUITests */,
+				8C8F6CF92C5CFE6E0096BBC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C8F6CF92C5CFE6E0096BBC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C8F6CF82C5CFE6E0096BBC9 /* GlucoFlowAbschlussprojekt.app */,
+				8C8F6D082C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektTests.xctest */,
+				8C8F6D122C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C8F6CFA2C5CFE6E0096BBC9 /* GlucoFlowAbschlussprojekt */ = {
+			isa = PBXGroup;
+			children = (
+				8C8F6CFB2C5CFE6E0096BBC9 /* GlucoFlowAbschlussprojektApp.swift */,
+				8C8F6CFD2C5CFE6E0096BBC9 /* ContentView.swift */,
+				8C8F6CFF2C5CFE6F0096BBC9 /* Assets.xcassets */,
+				8C8F6D012C5CFE6F0096BBC9 /* Preview Content */,
+			);
+			path = GlucoFlowAbschlussprojekt;
+			sourceTree = "<group>";
+		};
+		8C8F6D012C5CFE6F0096BBC9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8C8F6D022C5CFE6F0096BBC9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8C8F6D0B2C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C8F6D0C2C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektTests.swift */,
+			);
+			path = GlucoFlowAbschlussprojektTests;
+			sourceTree = "<group>";
+		};
+		8C8F6D152C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C8F6D162C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektUITests.swift */,
+				8C8F6D182C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektUITestsLaunchTests.swift */,
+			);
+			path = GlucoFlowAbschlussprojektUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C8F6CF72C5CFE6E0096BBC9 /* GlucoFlowAbschlussprojekt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8F6D1C2C5CFE6F0096BBC9 /* Build configuration list for PBXNativeTarget "GlucoFlowAbschlussprojekt" */;
+			buildPhases = (
+				8C8F6CF42C5CFE6E0096BBC9 /* Sources */,
+				8C8F6CF52C5CFE6E0096BBC9 /* Frameworks */,
+				8C8F6CF62C5CFE6E0096BBC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlucoFlowAbschlussprojekt;
+			productName = GlucoFlowAbschlussprojekt;
+			productReference = 8C8F6CF82C5CFE6E0096BBC9 /* GlucoFlowAbschlussprojekt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C8F6D072C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8F6D1F2C5CFE6F0096BBC9 /* Build configuration list for PBXNativeTarget "GlucoFlowAbschlussprojektTests" */;
+			buildPhases = (
+				8C8F6D042C5CFE6F0096BBC9 /* Sources */,
+				8C8F6D052C5CFE6F0096BBC9 /* Frameworks */,
+				8C8F6D062C5CFE6F0096BBC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C8F6D0A2C5CFE6F0096BBC9 /* PBXTargetDependency */,
+			);
+			name = GlucoFlowAbschlussprojektTests;
+			productName = GlucoFlowAbschlussprojektTests;
+			productReference = 8C8F6D082C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C8F6D112C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8F6D222C5CFE6F0096BBC9 /* Build configuration list for PBXNativeTarget "GlucoFlowAbschlussprojektUITests" */;
+			buildPhases = (
+				8C8F6D0E2C5CFE6F0096BBC9 /* Sources */,
+				8C8F6D0F2C5CFE6F0096BBC9 /* Frameworks */,
+				8C8F6D102C5CFE6F0096BBC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C8F6D142C5CFE6F0096BBC9 /* PBXTargetDependency */,
+			);
+			name = GlucoFlowAbschlussprojektUITests;
+			productName = GlucoFlowAbschlussprojektUITests;
+			productReference = 8C8F6D122C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C8F6CF02C5CFE6E0096BBC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8C8F6CF72C5CFE6E0096BBC9 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					8C8F6D072C5CFE6F0096BBC9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8C8F6CF72C5CFE6E0096BBC9;
+					};
+					8C8F6D112C5CFE6F0096BBC9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8C8F6CF72C5CFE6E0096BBC9;
+					};
+				};
+			};
+			buildConfigurationList = 8C8F6CF32C5CFE6E0096BBC9 /* Build configuration list for PBXProject "GlucoFlowAbschlussprojekt" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C8F6CEF2C5CFE6E0096BBC9;
+			productRefGroup = 8C8F6CF92C5CFE6E0096BBC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C8F6CF72C5CFE6E0096BBC9 /* GlucoFlowAbschlussprojekt */,
+				8C8F6D072C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektTests */,
+				8C8F6D112C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C8F6CF62C5CFE6E0096BBC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8F6D032C5CFE6F0096BBC9 /* Preview Assets.xcassets in Resources */,
+				8C8F6D002C5CFE6F0096BBC9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8F6D062C5CFE6F0096BBC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8F6D102C5CFE6F0096BBC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C8F6CF42C5CFE6E0096BBC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8F6CFE2C5CFE6E0096BBC9 /* ContentView.swift in Sources */,
+				8C8F6CFC2C5CFE6E0096BBC9 /* GlucoFlowAbschlussprojektApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8F6D042C5CFE6F0096BBC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8F6D0D2C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8F6D0E2C5CFE6F0096BBC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8F6D192C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektUITestsLaunchTests.swift in Sources */,
+				8C8F6D172C5CFE6F0096BBC9 /* GlucoFlowAbschlussprojektUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C8F6D0A2C5CFE6F0096BBC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C8F6CF72C5CFE6E0096BBC9 /* GlucoFlowAbschlussprojekt */;
+			targetProxy = 8C8F6D092C5CFE6F0096BBC9 /* PBXContainerItemProxy */;
+		};
+		8C8F6D142C5CFE6F0096BBC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C8F6CF72C5CFE6E0096BBC9 /* GlucoFlowAbschlussprojekt */;
+			targetProxy = 8C8F6D132C5CFE6F0096BBC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8C8F6D1A2C5CFE6F0096BBC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C8F6D1B2C5CFE6F0096BBC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C8F6D1D2C5CFE6F0096BBC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GlucoFlowAbschlussprojekt/Preview Content\"";
+				DEVELOPMENT_TEAM = 4932DF7KUX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Bischof.GlucoFlowAbschlussprojekt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C8F6D1E2C5CFE6F0096BBC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GlucoFlowAbschlussprojekt/Preview Content\"";
+				DEVELOPMENT_TEAM = 4932DF7KUX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Bischof.GlucoFlowAbschlussprojekt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C8F6D202C5CFE6F0096BBC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4932DF7KUX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Bischof.GlucoFlowAbschlussprojektTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlucoFlowAbschlussprojekt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GlucoFlowAbschlussprojekt";
+			};
+			name = Debug;
+		};
+		8C8F6D212C5CFE6F0096BBC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4932DF7KUX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Bischof.GlucoFlowAbschlussprojektTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlucoFlowAbschlussprojekt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GlucoFlowAbschlussprojekt";
+			};
+			name = Release;
+		};
+		8C8F6D232C5CFE6F0096BBC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4932DF7KUX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Bischof.GlucoFlowAbschlussprojektUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GlucoFlowAbschlussprojekt;
+			};
+			name = Debug;
+		};
+		8C8F6D242C5CFE6F0096BBC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4932DF7KUX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Bischof.GlucoFlowAbschlussprojektUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GlucoFlowAbschlussprojekt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C8F6CF32C5CFE6E0096BBC9 /* Build configuration list for PBXProject "GlucoFlowAbschlussprojekt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8F6D1A2C5CFE6F0096BBC9 /* Debug */,
+				8C8F6D1B2C5CFE6F0096BBC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8F6D1C2C5CFE6F0096BBC9 /* Build configuration list for PBXNativeTarget "GlucoFlowAbschlussprojekt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8F6D1D2C5CFE6F0096BBC9 /* Debug */,
+				8C8F6D1E2C5CFE6F0096BBC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8F6D1F2C5CFE6F0096BBC9 /* Build configuration list for PBXNativeTarget "GlucoFlowAbschlussprojektTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8F6D202C5CFE6F0096BBC9 /* Debug */,
+				8C8F6D212C5CFE6F0096BBC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8F6D222C5CFE6F0096BBC9 /* Build configuration list for PBXNativeTarget "GlucoFlowAbschlussprojektUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8F6D232C5CFE6F0096BBC9 /* Debug */,
+				8C8F6D242C5CFE6F0096BBC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C8F6CF02C5CFE6E0096BBC9 /* Project object */;
+}
