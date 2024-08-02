@@ -9,7 +9,16 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text("Home")
+        NavigationStack{
+            VStack{
+                
+                Text("Home")
+            }
+            .background(
+            Image("hintergrund")
+                .scaledToFill()
+            )
+        }
     }
 }
 
