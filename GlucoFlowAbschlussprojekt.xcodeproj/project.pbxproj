@@ -19,6 +19,11 @@
 		8C8F6D2A2C5D05F00096BBC9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6D292C5D05F00096BBC9 /* MainView.swift */; };
 		8C8F6D312C5D14AD0096BBC9 /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6D302C5D14AD0096BBC9 /* MealView.swift */; };
 		8C8F6D332C5D14B80096BBC9 /* MealViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6D322C5D14B80096BBC9 /* MealViewModel.swift */; };
+		8C8F6D362C5D15C20096BBC9 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6D352C5D15C20096BBC9 /* SettingView.swift */; };
+		8C8F6D392C5D15F10096BBC9 /* AddViewGlucose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6D382C5D15F10096BBC9 /* AddViewGlucose.swift */; };
+		8C8F6D3B2C5D19520096BBC9 /* PersistentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6D3A2C5D19520096BBC9 /* PersistentStore.swift */; };
+		8C8F6D3D2C5D19780096BBC9 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6D3C2C5D19780096BBC9 /* Repository.swift */; };
+		8C8F6D402C5D199D0096BBC9 /* PatientDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6D3E2C5D199D0096BBC9 /* PatientDatabase.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,11 @@
 		8C8F6D292C5D05F00096BBC9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		8C8F6D302C5D14AD0096BBC9 /* MealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealView.swift; sourceTree = "<group>"; };
 		8C8F6D322C5D14B80096BBC9 /* MealViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewModel.swift; sourceTree = "<group>"; };
+		8C8F6D352C5D15C20096BBC9 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		8C8F6D382C5D15F10096BBC9 /* AddViewGlucose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewGlucose.swift; sourceTree = "<group>"; };
+		8C8F6D3A2C5D19520096BBC9 /* PersistentStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentStore.swift; sourceTree = "<group>"; };
+		8C8F6D3C2C5D19780096BBC9 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		8C8F6D3F2C5D199D0096BBC9 /* PatientDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PatientDatabase.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +114,9 @@
 		8C8F6CFA2C5CFE6E0096BBC9 /* GlucoFlowAbschlussprojekt */ = {
 			isa = PBXGroup;
 			children = (
+				8C8F6D412C5D1A810096BBC9 /* CoreData */,
+				8C8F6D372C5D15E00096BBC9 /* Hinzufügen */,
+				8C8F6D342C5D15B20096BBC9 /* Einstellungen */,
 				8C8F6D2F2C5D149E0096BBC9 /* MealView */,
 				8C8F6D2E2C5D148D0096BBC9 /* CalendarView */,
 				8C8F6D2B2C5D145F0096BBC9 /* HomeView */,
@@ -164,6 +177,33 @@
 				8C8F6D322C5D14B80096BBC9 /* MealViewModel.swift */,
 			);
 			path = MealView;
+			sourceTree = "<group>";
+		};
+		8C8F6D342C5D15B20096BBC9 /* Einstellungen */ = {
+			isa = PBXGroup;
+			children = (
+				8C8F6D352C5D15C20096BBC9 /* SettingView.swift */,
+			);
+			path = Einstellungen;
+			sourceTree = "<group>";
+		};
+		8C8F6D372C5D15E00096BBC9 /* Hinzufügen */ = {
+			isa = PBXGroup;
+			children = (
+				8C8F6D382C5D15F10096BBC9 /* AddViewGlucose.swift */,
+			);
+			name = "Hinzufügen";
+			path = "Hinzufügen";
+			sourceTree = "<group>";
+		};
+		8C8F6D412C5D1A810096BBC9 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				8C8F6D3E2C5D199D0096BBC9 /* PatientDatabase.xcdatamodeld */,
+				8C8F6D3A2C5D19520096BBC9 /* PersistentStore.swift */,
+				8C8F6D3C2C5D19780096BBC9 /* Repository.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,10 +337,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C8F6D262C5D03690096BBC9 /* HomeView.swift in Sources */,
+				8C8F6D392C5D15F10096BBC9 /* AddViewGlucose.swift in Sources */,
+				8C8F6D402C5D199D0096BBC9 /* PatientDatabase.xcdatamodeld in Sources */,
 				8C8F6D332C5D14B80096BBC9 /* MealViewModel.swift in Sources */,
 				8C8F6CFE2C5CFE6E0096BBC9 /* ContentView.swift in Sources */,
 				8C8F6D282C5D04310096BBC9 /* CalendarView.swift in Sources */,
+				8C8F6D3D2C5D19780096BBC9 /* Repository.swift in Sources */,
 				8C8F6D2A2C5D05F00096BBC9 /* MainView.swift in Sources */,
+				8C8F6D3B2C5D19520096BBC9 /* PersistentStore.swift in Sources */,
+				8C8F6D362C5D15C20096BBC9 /* SettingView.swift in Sources */,
 				8C8F6CFC2C5CFE6E0096BBC9 /* GlucoFlowAbschlussprojektApp.swift in Sources */,
 				8C8F6D312C5D14AD0096BBC9 /* MealView.swift in Sources */,
 			);
@@ -632,6 +677,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C8F6D3E2C5D199D0096BBC9 /* PatientDatabase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C8F6D3F2C5D199D0096BBC9 /* PatientDatabase.xcdatamodel */,
+			);
+			currentVersion = 8C8F6D3F2C5D199D0096BBC9 /* PatientDatabase.xcdatamodel */;
+			path = PatientDatabase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8C8F6CF02C5CFE6E0096BBC9 /* Project object */;
 }
