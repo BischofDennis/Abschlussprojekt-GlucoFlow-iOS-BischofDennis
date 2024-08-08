@@ -25,6 +25,8 @@
 		8C8F6D3B2C5D19520096BBC9 /* PersistentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6D3A2C5D19520096BBC9 /* PersistentStore.swift */; };
 		8C8F6D3D2C5D19780096BBC9 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6D3C2C5D19780096BBC9 /* Repository.swift */; };
 		8C8F6D402C5D199D0096BBC9 /* PatientDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F6D3E2C5D199D0096BBC9 /* PatientDatabase.xcdatamodeld */; };
+		8CB6C9E52C64CE3A00199520 /* MealResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB6C9E42C64CE3A00199520 /* MealResult.swift */; };
+		8CB6C9E72C64CE6100199520 /* MealApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB6C9E62C64CE6100199520 /* MealApiClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		8C8F6D3A2C5D19520096BBC9 /* PersistentStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentStore.swift; sourceTree = "<group>"; };
 		8C8F6D3C2C5D19780096BBC9 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		8C8F6D3F2C5D199D0096BBC9 /* PatientDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PatientDatabase.xcdatamodel; sourceTree = "<group>"; };
+		8CB6C9E42C64CE3A00199520 /* MealResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealResult.swift; sourceTree = "<group>"; };
+		8CB6C9E62C64CE6100199520 /* MealApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealApiClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +182,8 @@
 			children = (
 				8C8F6D302C5D14AD0096BBC9 /* MealView.swift */,
 				8C8F6D322C5D14B80096BBC9 /* MealViewModel.swift */,
+				8CB6C9E42C64CE3A00199520 /* MealResult.swift */,
+				8CB6C9E62C64CE6100199520 /* MealApiClient.swift */,
 			);
 			path = MealView;
 			sourceTree = "<group>";
@@ -343,11 +349,13 @@
 				8C8F6D392C5D15F10096BBC9 /* AddViewGlucose.swift in Sources */,
 				8C8F6D402C5D199D0096BBC9 /* PatientDatabase.xcdatamodeld in Sources */,
 				8C8F6D332C5D14B80096BBC9 /* MealViewModel.swift in Sources */,
+				8CB6C9E72C64CE6100199520 /* MealApiClient.swift in Sources */,
 				8C8F6CFE2C5CFE6E0096BBC9 /* ContentView.swift in Sources */,
 				8C6DC2A52C5D1D9500A8DFEC /* MainViewModel.swift in Sources */,
 				8C8F6D282C5D04310096BBC9 /* CalendarView.swift in Sources */,
 				8C8F6D3D2C5D19780096BBC9 /* Repository.swift in Sources */,
 				8C8F6D2A2C5D05F00096BBC9 /* MainView.swift in Sources */,
+				8CB6C9E52C64CE3A00199520 /* MealResult.swift in Sources */,
 				8C8F6D3B2C5D19520096BBC9 /* PersistentStore.swift in Sources */,
 				8C8F6D362C5D15C20096BBC9 /* SettingView.swift in Sources */,
 				8C8F6CFC2C5CFE6E0096BBC9 /* GlucoFlowAbschlussprojektApp.swift in Sources */,
