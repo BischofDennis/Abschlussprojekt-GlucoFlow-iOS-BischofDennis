@@ -16,7 +16,7 @@ class MealViewModel: ObservableObject {
     
     private let repository = MealAPIClient()
 
-    @MainActor
+   /* @MainActor
     func fetchData() {
         //asynchron
         Task {
@@ -30,5 +30,30 @@ class MealViewModel: ObservableObject {
             }
         }
         
+    }*/
+    
+    func fetchRecipe(searchString: String) {
+        Task {
+            do {
+                rezeptListe = try await repository.searchRecipeWithError(searchQuery: searchString)
+            } catch let error as APIError {
+                switch error {
+                case .invalidURL:
+                    errorText = "Invalid URL"
+                case .decodingError:
+                    errorText = "Decoding Error"
+                case .unknown:
+                    errorText = "Unknown Error"
+                case .serverError:
+                    errorText = "Server Error"
+                case .backendError(let message):
+                    errorText = message
+                }
+                showError = true
+            } catch {
+                errorText = error.localizedDescription
+                showError = true
+            }
+        }
     }
 }

@@ -10,6 +10,7 @@ import SwiftUI
 struct MealView: View {
     
         @StateObject private var viewModel = MealViewModel()
+        @State private var searchString = ""
         
         var body: some View {
             NavigationStack {
@@ -35,9 +36,14 @@ struct MealView: View {
                         }
                     }
                 }
+                .searchable(text: $searchString)
+                .onChange(of: searchString) {
+                    viewModel.fetchRecipe(searchString: searchString)
+                }
             }
             .onAppear{
-                viewModel.fetchData()
+                
+                viewModel.fetchRecipe(searchString: searchString)
             }
         }
     }

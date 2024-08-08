@@ -22,3 +22,9 @@ struct CurrentReceipt: Codable {
     let image: URL
     
 }
+
+struct RecipeError: Codable {
+    let status: String
+    let code: Int
+    let message: String
+}
